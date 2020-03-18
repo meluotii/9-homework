@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "FuturaPT";
+    font-style: heavy;
+    font-weight: 900;
+    src: url("../fonts/futuraPT/FuturaPT-Heavy.ttf") format("ttf")
+}
+
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/playfairDisplay/PlayfairDisplay-Regular.otf") format("otf")
+        url("../fonts/playfairDisplay/PlayfairDisplay-Regular.ttf") format("ttf")
+}
+
+@font-face {
+    font-family: "ProximaNova";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/proximaNova/ProximaNova-Regular.otf") format("otf")
+        url("../fonts/proximaNova/ProximaNova-Regular.ttf") format("ttf")
+}
+
+
+body {
+    background-color: #454f53;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer {
+    max-width: 1060px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 0 20px;
+}
+
+.header {
+    width: 900px;
+    height: 265px;
+    position: absolute;
+    margin-top: -110px;
+    
+}
+
+.header .input-header {
+    height: 190px;
+    background-color: black;
+    margin: 0 0 0 200px;
+    width: 100%;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.24);
+}
+
+.input-header .input [type="title"] {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 3px solid #303030;
+    font-family: "PlayfairDisplay";
+    font-size: 48px;
+    box-sizing: border-box;
+}
+
+.input-header .button {
+    padding: 50px 0 50px 60px;
+    font-family: "ProximaNova";
+    font-size: 15px;
+    letter-spacing: 6px;
+    color: white;
+}
+
+.input-header span {
+    opacity: 0.5;
+}
+
+.header .control-bar {
+    width: 840px;
+    height: 75px;
+    background-color: #F4BA2C;
+    padding: 20px 0 20px 40px;
+    box-sizing: border-box;
+    margin: 0 0 0 260px;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.24);
+}
+
+.control-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.control-bar ul>li {
+    display: inline;
+    letter-spacing: 20px;
+    
+}
+
+li .icon-1 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/text-color.png);
+}
+
+li .icon-2 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/text-size.png);
+}
+
+
+li .icon-3 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/image.png);
+}
+
+li .icon-4 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/text-width.png);
+}
+
+li .icon-5 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/text-italic.png);
+}
+
+li .icon-6 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/text-underline.png);
+}
+
+li .icon-7 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/aling-justify.png);
+}
+
+li .icon-8 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/align-left.png);
+}
+
+
+li .icon-9 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/aling-center.png);
+}
+
+
+li .icon-10 {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/align-right.png);
+}
+
+li .icon-2:hover,
+li .icon-3:hover {
+    background-position: 0 38px;
+}
+
+li .icon-1:hover,
+li .icon-4:hover,
+li .icon-5:hover,
+li .icon-6:hover,
+li .icon-7:hover,
+li .icon-10:hover {
+    background-position: 0 40px;
+}
+
+li .icon-8:hover,
+li .icon-9:hover {
+    background-position: 0 42px;
+}
+
+.article {
+    background-color: white;
+    padding: 0 0 0 67px;
+    font-size: 15px;
+    position: relative;
+    box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.801);
+}
+
+.article .content {
+    width: 990px;
+    border-left: 2px solid #e8eced;
+    padding: 200px 130px 20px 55px;
+    box-sizing: border-box;
+    
+}
+
+.article .author {
+    font-size: 20px;
+    font-family: "ProximaNova";
+    text-transform: uppercase;
+    opacity: 0.5;
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+}
+
+.article .title {
+    font-size: 70px;
+    font-family: "FuturaPT", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.article .caption {
+    font-size: 30px;
+    font-style: italic;
+    opacity: 0.5;
+    margin: 0 0 50px 0;
+}
+
+.article .text {
+    font-size: 27px;
+    margin: 0 0 40px 0;
+}
+
+.text span {
+    font-style: italic;
+}

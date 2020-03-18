@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/playfairDisplay/PlayfairDisplay-Regular.otf") format("otf")
+        url("../fonts/playfairDisplay/PlayfairDisplay-Regular.ttf") format("ttf")
+}
+
+
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer {
+    width: 1400px;
+    margin: 0 auto;
+   
+}
+
+.wrapper {
+    margin: 100px 0;
+    padding: 120px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.103);
+}
+
+.wrapper .title {
+    font-size: 42px;
+    font-family: "PlayfairDisplay";
+    margin-bottom: 20px;
+}
+
+.wrapper p {
+    margin-bottom: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #5c5c5c;
+}
+
+.text p[class="main"]::first-letter {
+    font-size: 110px;
+    color: black;
+    float: left; 
+    margin: -20px 18px 0 0;
+    font-family: "PlayfairDisplay";
+}
+
+.wrapper blockquote {
+    font-size: 24px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #5c5c5c;
+}
+
+.wrapper blockquote::before {
+    content: '“';
+    font-size: 80px;
+}
+
+
+.text [type="button"] {
+    width: 270px;
+    height: 70px;
+    border: 1px solid #eaa258;
+    color: #eaa258;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.text [type="button"]:hover {
+    color: #ffffff;
+    background-color: #eaa258;
+    transition-duration: 0.3s;
+}
